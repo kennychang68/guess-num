@@ -1,5 +1,9 @@
 import random
-r = random.randint (1, 10)
+start = input('please set start value : ')
+end = input('please set end value : ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 print(r)
 count = 0
 while True:
